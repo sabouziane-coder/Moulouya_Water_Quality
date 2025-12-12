@@ -3,7 +3,7 @@
 This repository contains data and scripts for "AI-Driven Real-Time Prediction and Monitoring of Water Quality in the Moulouya River Basin, Morocco" (Y. [Your Name], et al.). It includes preprocessing code, Pollution Index (PI) calculation, ensemble model training (RF, GB, XGBoost), evaluation scripts, and the figures used in the manuscript.
 
 ## Repository structure
-- `data/raw/` — original Excel files (not included if proprietary)
+- `data/raw/` — original Excel files 
 - `data/processed/` — processed CSV dataset (normalized)
 - `src/` — preprocessing, PI calculation, training and plotting scripts
 - `notebooks/` — exploratory analysis and modeling notebook
