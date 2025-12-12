@@ -1,0 +1,26 @@
+# Byte-compiled / caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Data files
+data/raw/*
+!data/raw/README.md   # allow README describing raw data availability
+data/*.xlsx
+data/*.xls
+
+# Models / large artifacts
+results/models/
+*.pkl
+*.joblib
+
+# Temporary and OS
+.DS_Store
+*.log
+.env
+.vscode/
+.ipynb_checkpoints/
+
+# Python environment
+venv/
+env/
