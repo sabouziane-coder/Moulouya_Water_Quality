@@ -27,7 +27,7 @@ RANDOM_STATE = 42
 # ======================
 # 2. Load dataset
 # ======================
-df = pd.read_excel("../data/Final_Pollution_Index_Results.xlsx")
+df = pd.read_csv("../data/processed/Final_Pollution_Index_Results.csv")
 
 FEATURES = ["T°C", "pH", "EC", "DO", "BOD5", "PO4", "NH4", "SO4", "NO3"]
 TARGET = "PI"
