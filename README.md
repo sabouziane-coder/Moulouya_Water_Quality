@@ -25,8 +25,6 @@ The repository includes preprocessing routines, Pollution Index (PI) calculation
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
-
 ## Directory Description
 data/raw/
 Contains reference tables and metadata used for Pollution Index (PI) computation.
