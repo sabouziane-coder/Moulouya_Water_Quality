@@ -1,8 +1,15 @@
-# Moulouya River Water Quality — PI prediction (Ensemble models)
+# Moulouya River Water Quality — Pollution Index (PI) Prediction
 
-This repository contains data and scripts for "AI-Driven Real-Time Prediction and Monitoring of Water Quality in the Moulouya River Basin, Morocco" (Y. [Your Name], et al.). It includes preprocessing code, Pollution Index (PI) calculation, ensemble model training (RF, GB, XGBoost), evaluation scripts, and the figures used in the manuscript.
+This repository provides the data and Python scripts associated with the study  
+**“An Ensemble Learning Approach for Water Quality Assessment and Prediction Using the Pollution Index: A Case Study of the Moulouya River Basin, Morocco.”**
 
-## Repository structure
+The repository includes preprocessing routines, Pollution Index (PI) calculation, baseline and ensemble model training, model evaluation and robustness analysis, and the figures used in the manuscript.
+
+---
+
+## Repository Structure
+
+```text
 .
 ├── data/
 │   ├── raw/
@@ -11,13 +18,14 @@ This repository contains data and scripts for "AI-Driven Real-Time Prediction an
 │   └── processed/
 │       └── Final_Pollution_Index_Results.csv
 ├── src/
-│   ├── calc_pi.py
 │   ├── preprocess.py
+│   ├── calc_pi.py
 │   ├── training_models_pi.py
 │   └── plot_ensemble.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
 
 ## Directory Description
 data/raw/
