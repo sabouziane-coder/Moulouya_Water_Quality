@@ -88,6 +88,7 @@ ada_pipeline = Pipeline([
     ("scaler", MinMaxScaler()),
     ("model", AdaBoostRegressor(
         estimator=DecisionTreeRegressor(max_depth=2),
+        loss= "linear",
         random_state=RANDOM_STATE
     ))
 ])
